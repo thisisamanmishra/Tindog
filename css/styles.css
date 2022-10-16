@@ -2,7 +2,7 @@ body{
   font-family: "Montserrat";
   }
 #title{
-  background-color: #745257d9;
+  background-color: #7f6429;
   color: #fff;
   position: relative;
 }
@@ -76,7 +76,7 @@ h3{
 /*Testimonials*/
 #testimonials{
   text-align: center;
-  background-color: #ef8172;
+  background-color: #948d08;
   color: #fff;
 }
 .testimonials-image{
