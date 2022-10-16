@@ -1,1 +1,1 @@
-TinDog Starting Files
+TinDog is a simple wibsite made useing bootstrap for hacktoberfest.
