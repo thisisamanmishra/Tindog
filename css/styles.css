@@ -1,106 +1,121 @@
-body{
+body {
   font-family: "Montserrat";
-  }
-#title{
+}
+
+#title {
   background-color: #7f6429;
   color: #fff;
   position: relative;
 }
-.container-fluid{
+
+.container-fluid {
   padding: 4% 16% 0;
 }
-h1{
+
+h1 {
   font-family: "Montserrat-Black";
   font-size: 3.5rem;
   line-height: 1.5;
   font-weight: bold
 }
-h2{
+
+h2 {
   font-family: "Montserrat";
   font-size: 3rem;
   line-height: 1.5;
 }
-h3{
+
+h3 {
   font-family: "Montserrat-Black";
-    }
-    p{
-      color: #8f8f8f;
-    }
+}
+
+p {
+  color: #8f8f8f;
+}
+
 /* Navigation bar */
-.navbar{
+.navbar {
   padding-bottom: 4.5rem;
 }
-.navbar-brand{
+
+.navbar-brand {
   font-family: "Ubuntu";
   font-size: 2.5rem;
   font-weight: bold;
 }
 
-.nav-item{
+.nav-item {
   padding: 0 18px;
 }
-.nav-link{
+
+.nav-link {
   font-size: 1.3rem;
   font-family: "Montserrat-light";
 }
 
 
-.download-button{
+.download-button {
   margin: 6% 3% 5% 0;
 }
 
 
-.title-image{
+.title-image {
   position: relative;
   padding-top: 75px;
   width: 60%;
   transform: rotate(25deg);
 }
 
-#features{
+#features {
   padding: 8% 16%;
 }
-.feature-box{
+
+.feature-box {
   text-align: center;
   padding: 5%;
 }
 
-.icon{
+.icon {
   color: #96d626a3;
   margin-bottom: 1rem;
 }
-.icon:hover{
+
+.icon:hover {
   color: #4c58ff;
 }
 
 /*Testimonials*/
-#testimonials{
+#testimonials {
   text-align: center;
   background-color: #948d08;
   color: #fff;
 }
-.testimonials-image{
+
+.testimonials-image {
   width: 10%;
   border-radius: 100%;
   margin: 20px;
 
 }
-.carousel-item{
+
+.carousel-item {
   padding: 7% 15%;
 }
-#press{
+
+#press {
   text-align: center;
   background-color: #2d08034e;
   padding-bottom: 5%;
 }
 
-.press-logo{
+.press-logo {
   width: 15%;
   margin: 20px 20px 15px;
 }
+
 section.pricing {
   background: #948d08;
-  background: linear-gradient(to right, #948d08, #33AEFF);
+  background: linear-gradient(to right, #948d08, grey);
 }
 
 .pricing .card {
@@ -161,18 +176,19 @@ section.pricing {
     opacity: 1;
   }
 }
+
 .contributors-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #3b4961;
+  background-color: gainsboro;
   padding-bottom: 2.75rem;
   border-bottom: 1px solid gray;
 }
 
 .contributors-container h1 {
-  color: whitesmoke;
+  color: rgb(83, 73, 73);
   text-align: center;
   font-size: 2rem;
   font-weight: 600;
@@ -212,12 +228,15 @@ section.pricing {
   color: black;
   margin-right: 5px;
 }
+
 .contributors {
-margin-top: 20px;
-margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .contributors-container {
-padding-top: 20px;
+  padding-top: 20px;
 }
-
+footer{
+  background: gainsboro;
+}
